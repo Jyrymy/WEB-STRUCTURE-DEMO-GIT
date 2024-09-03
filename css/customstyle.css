@@ -1,0 +1,99 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    text-align: center;
+    background-color: #660033;
+    color: white;
+    padding: 20px;
+}
+
+header .container a{
+    text-decoration: none;
+    color:white;
+    padding: 15px;
+}
+
+header .container a:hover{
+    background-color: #da5b9f;
+}
+
+nav{
+    float: left;
+    width: 20%;
+    background-color: #7f0743;
+    height: 700px;
+}
+
+article{
+    float: left;
+    width: 70%;
+    background-color: #d076a3;
+    height: 700px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.navigation_menu li{
+    list-style: none;
+    padding: 15px;
+}
+.navigation_menu li a{
+    text-decoration: none;
+    color: white;
+}
+.navigation_menu li:hover{
+    background-color: #da5b9f;
+    color: black;
+}
+
+
+footer{
+    text-align: center;
+    background-color: #97155a;
+    padding: 15px;
+}
+
+footer h2{
+    color:white;
+    padding-top: 15px;
+}
+
+.footer_menu a{
+    color:white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+/* THIS CSS IS FOR TABLE */
+table{
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+th {
+    background-color: #971958;
+    color: white;
+}
+
+.table_data{
+    background-color: chartreuse;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    
+}
+
+tr:nth-child(even){
+    background-color: #97155a;
+    
+}
+
+/* THIS IS THE STYLE FOR HTML LIST */
+.firstColumn{
+    float: left;
+}
+.secondColumn{
+    float: right;
+}

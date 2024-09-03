@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE LAYOUT STRUCTURE</title>
+    <link rel="stylesheet" href="../css/customstyle.css">
+</head>
+
+<body>
+    <!-- STARTING HEADER -->
+    <header>
+        <h1>College of Information and Computing Sciences</h1>
+        <h3>Bachelor of Science in Information System</h3>
+        <div class="container">
+            <a href="../index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="contactUs.html">Contact Us</a> |
+            <a href="">Inquiry</a> |
+            <a href="">Profile</a> |
+        </div>
+    </header>
+    <!-- ENDING HEADER  -->
+    <!-- STARTING SECTION -->
+    <section>
+        <nav>
+            <ul class="navigation_menu">
+                <li><a href="">Heading</a></li>
+                <li><a href="table.html">Tables</a></li>
+                <li><a href="list.html">HTML List</a></li>
+                <li><a href="forms.html">Forms</a></li>
+                <li><a href="form.post.php">Form Post Method</a></li>
+                <li><a href="">Images</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h2>Table Format HTML</h2>
+            <p align="justify">This is the Sample Table Content</p>
+
+            <!-- TABLE START -->
+             <table border="1" class="table_data">
+                <colgroup>
+                    <col style="width: 40%;">
+                    <col style="width: 30%;">
+                    <col style="width: 30%;">
+                </colgroup>
+                <tr>
+                    <th>Product</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Laptop</td>
+                    <td>Electronics</td>
+                    <td>$800</td>
+                </tr>
+                <tr>
+                    <td>Mobile Phone</td>
+                    <td>Electronics</td>
+                    <td>$800</td>
+                </tr>
+                <tr>
+                    <td>Tablet</td>
+                    <td>Electronics</td>
+                    <td>$800</td>
+                </tr>
+             </table>
+            <!-- TABLE END -->
+
+            <!-- TABLE WITH THEAD TBODY AND TFOOT -->
+             <p>THIS IS FOR THE TABLE STRUCTURE WITH THEAD, TBODY AND TFOOT</p>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Course</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="3">JEREMIE ROBLES</td>
+                        <td>20</td>
+                        <td>BSIS-III</td>
+                    </tr>
+                    <tr>
+                       
+                        <td>21</td>
+                        <td>BSIS-I</td>
+                    </tr>
+                    <tr>
+                      
+                       <td>23</td>
+                        <td>BSIS-II</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2"><small><b>Information</b></small></td>
+                        <td><small>Info</small></td>
+                    </tr>
+                </tfoot>
+            </table>
+
+
+            <!-- NESTED TABLES -->
+             <h3><b>Nested Tables</b></h3>
+            <table border="1">
+                <figcaption><b>Table 1.</b> This is the sample data of a table</figcaption>
+                <thead>
+                    <tr>
+                        <th colspan="3">Content of A Table</th>
+                    </tr>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nike Shoes
+                            <table border="1">
+                                <tr>
+                                    <th>Size</th>
+                                    <th>Color</th>
+                                </tr>
+                                <tbody>
+                                    <tr>
+                                        <td>40</td>
+                                        <td>White</td>
+                                    </tr>
+                                    <tr>
+                                        <td>39</td>
+                                        <td>Brown</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                        <td>34</td>
+                        <td>$2300</td>
+                    </tr>
+                    <tr>
+                        <td>Adidas Shoes</td>
+                        <td>23</td>
+                        <td>$2500</td>
+                    </tr>
+                    <tr>
+                        <td>Puma Shoes</td>
+                        <td>12</td>
+                        <td>$1500</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+
+                </tfoot>
+            </table>
+            
+        </article>
+    </section>
+    <!-- END SECTION -->
+
+    <!-- START FOOTER -->
+     <footer>
+            <h2>MarSU</h2>
+        <div class="footer_menu">
+            <a href="about.html">About</a> |
+            <a href="">Policy</a> |
+            <a href="">Terms of Use</a> |
+            <a href="">Privacy</a> |
+            <a href="">FAQ</a> |
+            <a href="contactUs.html">Contact</a>
+        </div>
+        <div>
+            <p><b>Copyright &copy 2024. </b> MarSU Sta Cruz Campus, BSIS Student</p>
+        </div>
+     </footer>
+     <!-- END FOOTER -->
+
+</body>
+</html>
