@@ -10,4 +10,4 @@ Website Structure
 
 1. Open Index.html in your browser
 
-2. Added a new features
+2. Added a new Feature
