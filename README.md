@@ -13,3 +13,5 @@ Website Structure
 2. Added a new feature
 
 3. Added a 3rd Feature
+
+4. Sample
